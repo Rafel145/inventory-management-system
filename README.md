@@ -29,6 +29,8 @@ Inventory-Management-System/
 ├── Controllers/
 ├── Models/
 ├── Views/
+├── database/
+│   └── inventory_management.sql
 ├── helpers/
 └── index.php
 
@@ -42,11 +44,15 @@ INSTALASI
 
 3. Buat database MySQL dengan nama inventory_management.
 
-4. Sesuaikan konfigurasi database pada Config/database.php berdasarkan lingkungan lokal.
+4. Buka phpMyAdmin, pilih database inventory_management, lalu klik tab Import.
 
-5. Jalankan Apache dan MySQL melalui XAMPP.
+5. Pilih file database/inventory_management.sql dari folder proyek, kemudian klik Import.
 
-6. Buka aplikasi melalui browser:
+6. Sesuaikan konfigurasi database pada Config/database.php berdasarkan lingkungan lokal.
+
+7. Jalankan Apache dan MySQL melalui XAMPP.
+
+8. Buka aplikasi melalui browser:
 
    http://localhost/Inventory-Management-System/
 
