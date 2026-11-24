@@ -56,6 +56,11 @@ INSTALASI
 
    http://localhost/Inventory-Management-System/
 
+AKUN LOGIN DEFAULT
+
+Username: admin
+Password: admin123
+
 PENGEMBANG
 
 Rafel Margeafany
